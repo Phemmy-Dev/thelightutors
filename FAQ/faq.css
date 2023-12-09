@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+
+
+
+:root {
+    --secondary-color: #0a3d48;
+    --primary-color: #fc8402;
+}
+
+body {
+    /* font-family: 'DM Sans', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+section {
+    padding: 60px 50px;
+    margin-bottom: 1%;
+}
+
+ul li{
+    list-style-type: "→";
+}
+
+ul {
+    display: flex;
+}
+
+.flex-space {
+    justify-content: space-between;
+    display: flex;
+    /* background-color: var(--secondary-color); */
+    align-items: center;
+
+}
+
+header {
+    line-height: 10vh;
+    height: 15vh;
+    background-color: var(--secondary-color);
+    padding: 0 20px;
+  /* border: 2px solid red; */
+}
+
+header img {
+    border-radius: 10px;
+    width: 100px;
+    margin: 20px 0;
+}
+
+header ul {
+    display: inline-block;
+}
+
+header ul li {
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+header ul li a {
+    margin: 0 20px;
+    color: white;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+header ul li a:hover {
+    color: var(--primary-color);
+}
+
+header i {
+    margin: 0 20px;
+}
+
+header .navlinks span {
+    display: none;
+}
+
+
+body {
+    background-color: var(--secondary-color);
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 2rem 0;
+}
+
+.accordion {
+    max-width: 1000px;
+    width: 90%;
+    margin: 2rem auto;
+}
+.accordion-item {
+    color: #111;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+}
+.accordion-item-header {
+    font-size: 20px;
+    min-height: 3.5rem;
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    font-weight: bold;
+    line-height: 1.25rem;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    position: relative;
+}
+
+.accordion-item-header::after {
+    font-size: 2rem;
+    content: "\002B";
+    right: 1rem;
+    position: absolute;
+}
+
+.accordion-item-header.active::after {
+    content: "\2212";
+}
+
+.accordion-item-body {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+}
+.accordion-item-body-content {
+    line-height: 1.5rem;
+    padding: 1rem;
+    font-size: 20px;
+    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+    border-top: 1px solid;
+}
+
+@media(max-width:767px) {
+html {
+    font-size: 14px;
+}
+
+.accordion-item-header {
+    font-size: 15px;
+}
+
+.accordion-item-body-content {
+    font-size: 15px;
+}
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1180px) {
+
+
+header ul {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 100%;
+    height: 800vh;
+    background-color: #0e3842;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    text-align: center;
+    z-index: 9;
+  }
+
+  header ul li {
+    display: block;
+    /* border: 2px solid red; */
+    margin-bottom: 5%;
+  }
+
+  header ul li a {
+    color: white;
+  }
+
+  header .navlinks span {
+    color: var(--primary-color);
+    display: block;
+    cursor: pointer;
+    line-height: 10vh;
+    font-size: 25px;
+  }
+
+  
+}
+
+@media only screen and (max-width: 970px) and (min-width: 350px) {
+
+    
+    header ul {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 100%;
+    height: 800vh;
+    background-color: #0e3842;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    text-align: center;
+    z-index: 9;
+  }
+
+  header ul li {
+    display: block;
+    /* border: 2px solid red; */
+    margin-bottom: 5%;
+  }
+
+  header ul li a {
+    color: white;
+  }
+
+  header .navlinks span {
+    color: var(--primary-color);
+    display: block;
+    cursor: pointer;
+    line-height: 10vh;
+    font-size: 25px;
+  }
+
+}

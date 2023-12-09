@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+
+
+
+:root {
+    --secondary-color: #0a3d48;
+    --primary-color: #fc8402;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+section {
+    padding: 60px 50px;
+    margin-bottom: 1%;
+}
+
+ul li{
+    list-style-type: "→";
+}
+
+ul {
+    display: flex;
+}
+
+.flex-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: var(--secondary-color); */
+
+}
+
+header {
+  height: 21vh;
+  line-height: 10vh;
+  padding: 0 20px;
+  background-color: var(--secondary-color);
+}
+
+header img {
+  width: 100px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+header ul {
+  display: inline-block;
+}
+
+header ul li {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+header ul li a {
+  color: white;
+  margin: 0 20px;
+  transition: 0.5s;
+}
+
+header ul li a:hover {
+  color: var(--primary-color);
+}
+
+header i {
+  margin: 0 20px;
+}
+
+header .navlinks span {
+  display: none;
+}
+
+
+
+.aboutt {
+    margin-top: 70px;  
+}
+
+.contentt2 h2 {
+    display: inline-block;
+    font-size: 2.5rem;
+    margin: 70px 0 30px 0;
+    position: relative;
+    color: black;
+}
+
+.contentt2 h2::after {
+    content: "";
+    width: 70%;
+    height: 4px;
+    background-color: var(--primary-color);
+    margin: auto;
+    display: block;
+}
+
+.aboutt-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.contentt2-p {
+    font-size: 25px;
+    width: 100%;
+    padding: 30px 0 8px 0;
+    /* text-indent: 50px; */
+}
+
+.contentt2-p2 {
+    font-size: 25px;
+    width: 100%;
+    padding-bottom: 8px;
+    /* text-indent: 50px; */
+}
+
+.contentt2-p22 {
+    font-size: 25px;
+    width: 100%;
+    padding-bottom: 8px;
+}
+
+.contentt2 h2 {
+    font-size: 40px;
+}
+
+
+
+
+.operate-checks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid gold; */
+
+}
+
+.checks-cont {
+    padding: 10px  5px;
+    border-radius: 5px;
+    /* border: 2px solid green; */
+    height: 300px;
+    width: 315px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6 );
+}
+
+.cont-inner {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid pink; */
+    /* height: 300px; */
+} 
+
+.cont-inner i {
+    font-size: 70px;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.cont-inner h4 {
+    font-size: 25px;
+    font-family: 'DM Sans', 'BlinkMacSystemFont', -apple-system, 'Roboto', 'Lucida Sans';
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cont-inner p {
+    /* width: 50%; */
+    font-size: 18px;
+    text-align: center;
+    font-weight: lighter;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+
+    header ul {
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        width: 100%;
+        height: 800vh;
+        background-color: #0e3842;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        text-align: center;
+        z-index: 9;
+      }
+    
+      header ul li {
+        display: block;
+        /* border: 2px solid red; */
+        margin-bottom: 5%;
+      }
+    
+      header ul li a {
+        color: white;
+      }
+    
+      header .navlinks span {
+        color: var(--primary-color);
+        display: block;
+        cursor: pointer;
+        line-height: 10vh;
+        font-size: 25px;
+      }
+
+  .aboutt-content {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+
+.contentt {
+    padding: 30px 0;
+}
+
+.contentt h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.contentt2-p  {
+    font-size: 22px;
+    width: 100%;
+    padding: 20px 0px;
+    text-align: left;
+    text-indent: 10px;
+    line-height: 30px;
+    color: #5c5a5a;
+}
+
+.contentt2-p2 {
+    font-size: 22px;
+    width: 100%;
+    text-indent: 10px;
+    padding-bottom: 8px;
+    line-height: 30px;
+    color: #5c5a5a;
+}
+
+.contentt2-p22 {
+    font-size: 22px;
+    width: 100%;
+    padding-bottom: 8px;
+}
+
+.contentt2 h2 {
+    font-size: 40px;
+}
+
+
+
+
+.contentt2 {
+    margin-top: 30px;
+}
+
+.contentt2 h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+
+/* .aboutt-img{
+    width: 330px;
+} */
+
+.aboutt-img img {
+    width: 100%;
+}
+
+/* .img2 {
+    width: 400px;
+} */
+
+.img2 img {
+    width: 100%;
+}
+
+.operate-checks {
+    flex-direction: column;
+}
+
+.checks-cont {
+    margin-bottom: 40px;
+}
+
+.cont-inner h4 {
+    font-size: 30px;
+    font-family: 'DM Sans', 'BlinkMacSystemFont', -apple-system, 'Roboto', 'Lucida Sans';
+    margin-bottom: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.cont-inner p {
+    /* width: 50%; */
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+}
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 350px) {
+
+    .contentt2 h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.contentt2-p  {
+    font-size: 18px;
+}
+
+.contentt2-p2 {
+    font-size: 18px;
+}
+
+.contentt2-p22 {
+    font-size: 18px;
+}
+}
+
+@media only screen and (max-width: 380px) and (min-width: 50px) { 
+    .contentt2 h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.contentt2-p  {
+    font-size: 15px;
+}
+
+.contentt2-p2 {
+    font-size: 15px;
+}
+
+.contentt2-p22 {
+    font-size: 15px;
+}
+}
