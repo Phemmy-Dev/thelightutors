@@ -20,7 +20,7 @@ ul li{
 }
 
 header {
-  height: 21vh;
+  height: 19vh;
   line-height: 10vh;
   padding: 0 20px;
   background-color: var(--secondary-color);
