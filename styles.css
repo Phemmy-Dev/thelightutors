@@ -540,7 +540,7 @@ section .test-heading::after {
   color: black;
   padding: 0 8px;
   opacity: 0.8;
-  font-size: 18px;
+  font-size: 12px;
   text-align: left;
 }
 
