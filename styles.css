@@ -98,6 +98,10 @@ header .navlinks span {
   display: none;
 }
 
+.logo {
+  height: 100%;
+}
+
 /* ------NAV------- */
 
 /* ------HERO------- */

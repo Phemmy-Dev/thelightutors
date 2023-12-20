@@ -13,7 +13,8 @@ body {
 }
 
 section {
-    padding: 60px 50px;
+    padding: 40px 50px;
+    /* border: 2px solid red; */
     margin-bottom: 1%;
 }
 
@@ -103,26 +104,38 @@ header .navlinks span {
     padding: 30px 0;
 }
 
+.contentt2 {
+    width: 60%;
+}
+
 .contentt2-p {
-    font-size: 25px;
+    font-size: 2px;
     width: 100%;
-    padding: 30px 0 8px 0;
+    padding: 10px 0 8px 0;
 }
 
 .contentt2-p2 {
-    font-size: 25px;
+    font-size: 2px;
     width: 100%;
     padding-bottom: 8px;
 }
 
 .contentt2-p22 {
-    font-size: 25px;
+    font-size: 2px;
     width: 100%;
     padding-bottom: 8px;
 }
 
 .contentt2 h2 {
     font-size: 40px;
+}
+
+.aboutt-img {
+    width: 40%;
+}
+
+.aboutt-img img {
+    width: 100%;
 }
 
 
@@ -149,7 +162,6 @@ header .navlinks span {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* border: 2px solid red; */
 } 
 
 .cont-inner i {
@@ -193,9 +205,18 @@ header .navlinks span {
 
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1030px) {
 
+    header {
+        height: 12vh;
+    }
 
+    .flex-space {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
     header ul {
         position: absolute;
         top: 100px;
@@ -227,6 +248,7 @@ header .navlinks span {
         font-size: 25px;
       }
 
+
   .aboutt-content {
     display: flex;
     flex-direction: column-reverse;
@@ -246,7 +268,7 @@ header .navlinks span {
 }
 
 .contentt2-p  {
-    font-size: 22px;
+    font-size: 20px;
     width: 100%;
     padding: 20px 0px;
     text-align: left;
@@ -274,6 +296,9 @@ header .navlinks span {
     font-size: 40px;
 }
 
+.aboutt-img {
+    width: 100%;
+}
 
 
 
@@ -287,9 +312,7 @@ header .navlinks span {
 }
 
 
-/* .aboutt-img{
-    width: 330px;
-} */
+
 
 .aboutt-img img {
     width: 100%;
@@ -332,15 +355,15 @@ header .navlinks span {
 }
 
 .contentt2-p  {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .contentt2-p2 {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .contentt2-p22 {
-    font-size: 18px;
+    font-size: 16px;
 }
 }
 

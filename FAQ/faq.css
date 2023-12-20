@@ -38,7 +38,7 @@ ul {
 
 header {
     line-height: 10vh;
-    height: 15vh;
+    height: 19vh;
     background-color: var(--secondary-color);
     padding: 0 20px;
   /* border: 2px solid red; */
@@ -80,7 +80,7 @@ header .navlinks span {
 
 
 body {
-    background-color: var(--secondary-color);
+    /* background-color: var(--secondary-color); */
     font-family: 'Montserrat', sans-serif;
     color: #fff;
 }
@@ -98,8 +98,8 @@ h1 {
 }
 .accordion-item {
     color: #111;
-    background-color: #fff;
-    border-radius: 0.5rem;
+    background-color: whitesmoke;
+    border-radius: 0.2rem;
     margin: 1rem 0;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
 }
@@ -108,7 +108,7 @@ h1 {
     min-height: 3.5rem;
     padding: 0.5rem 3rem 0.5rem 1rem;
     font-weight: bold;
-    line-height: 1.25rem;
+    /* line-height: 1.25rem; */
     align-items: center;
     display: flex;
     cursor: pointer;
@@ -134,7 +134,7 @@ h1 {
 .accordion-item-body-content {
     line-height: 1.5rem;
     padding: 1rem;
-    font-size: 20px;
+    font-size: 13px;
     border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
     border-top: 1px solid;
 }
@@ -145,11 +145,11 @@ html {
 }
 
 .accordion-item-header {
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .accordion-item-body-content {
-    font-size: 15px;
+    font-size: 10px;
 }
 }
 
@@ -158,7 +158,7 @@ html {
 
 
 
-@media only screen and (max-width: 1180px) {
+@media only screen and (max-width: 900px) {
 
 
 header ul {
