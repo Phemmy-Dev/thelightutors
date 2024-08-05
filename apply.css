@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+
+
+
+:root {
+    --secondary-color: #0a3d48;
+    --primary-color: #fc8402;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+section {
+    padding-inline: 50px;
+    padding: 0 50px;
+    margin-bottom: 10%;
+}
+
+nav {
+    background-color: transparent;
+}
+
+.bat-hero {
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(../IMG/IMG_2169.JPG);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    height: 10vh;
+}
+
+.hero-text {
+    color: white;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 30px;
+    color: white;
+}
+
+.bat-hero-cont p {
+    font-size: 20px;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) { 
+    .hero-text {
+        /* border: 2px solid red; */
+        width: 80%;
+    }
+
+    .hero-text p {
+        text-align: center;
+    }
+}
+
+
+.bat-benefits {
+    margin-top: 10%;
+}
+
+.bat-heading {
+    text-align: center;
+}
+
+.bat-heading h2 {
+    font-size: 45px;
+}
+
+.bat-benefits-cont {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.bat-benefits-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6 );
+    border-radius: 5px;
+    padding: 15px 10px   ;
+    justify-content: center;
+    width:30%;
+}
+
+
+.bat-benefits-card i {
+    font-size: 50px;
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+}
+
+.bat-benefits-card h4 {
+    font-size: 25px;
+    font-family: 'DM Sans', 'BlinkMacSystemFont', -apple-system, 'Roboto', 'Lucida Sans';
+    margin-bottom: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.bat-benefits-card p {
+    width: 80%;
+    font-size: 16px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+
+@media only screen and (max-width: 768px) { 
+
+.bat-heading h2 {
+    font-size: 30px;
+}
+
+.bat-benefits-cont {
+    flex-direction: row;
+    gap: 20px;
+}
+
+.bat-benefits-card {
+    margin-bottom: 40px;
+    width:100%;
+
+    
+}
+
+}
+
+.requirements-section {
+    background-color: var(--secondary-color);
+    border-radius: 15px;
+    color: white;
+    width: 95%;
+    margin: 0 auto;
+    padding: 0 40px 50px 40px;
+    margin-bottom: 10%;
+}
+
+.requirements-section h2{
+    text-transform: capitalize;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 3rem
+}
+
+
+.requirements-list ol {
+    white-space: pre-line;
+}
+
+.requirements-list ol li {
+    font-size: 1.5rem;
+    list-style: inside;
+    line-height: 30px;
+    color: white;
+    padding-left: 20px;
+    text-indent: -30px;
+
+}
+
+@media only screen and (max-width: 900px) { 
+    .requirements-section h2{
+    text-transform: capitalize;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 1.8rem
+}
+
+.requirements-list ol {
+    white-space: inherit;
+}
+
+.requirements-list ol li {
+    font-size: 1rem;
+    list-style: inside;
+    line-height: 40px;
+    color: white;
+    padding-left: 20px;
+    text-indent: -20px;
+    padding: -10px 0;
+    
+}
+}
+
+
+
+/* bat-apply-section */
+
+.bat-apply-section {
+    padding: 100px 30px;
+    margin-bottom: 0;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(../IMG/tutor-apply.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.bat-apply-section h2 {
+    color: white;
+    text-transform: capitalize;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+.bat-apply-cont {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.bat-apply-card, .apply-card-1 a{
+    border: 2px solid white;
+    width: 260px;
+    height: 310px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.bat-apply-card h2 {
+    font-size: 2rem;
+}
+
+.apply-card-1 a {
+    border: none;
+    padding: 0 40px;
+}
+
+.bat-apply-card i {
+    font-size: 2rem;
+}
+
+.bat-apply-card p {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.required_documentation {
+    /* border: 2px solid red; */
+}
+
+.required_documentation h2 {
+    font-size: 30px;
+}
+
+.required_field {
+    margin-bottom: 20px;
+}
+
+.apply_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apply_btn a {
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px 60px;
+    font-weight: 700;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+
+.apply_btn a:hover {
+    background-color: transparent;
+    color: black;
+    border: 2px solid var(--primary-color);
+}
+
+@media only screen and (max-width: 1200px) { 
+
+.bat-apply-cont {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+    .bat-apply-card {
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.bat-apply-card h2 {
+    font-size: 1rem;
+}
+
+
+}
+
+@media only screen and (max-width: 768px) { 
+    .bat-apply-card, .apply-card-1 {
+    width: 150px;
+    height: 180px;
+}
+.bat-apply-card i {
+    font-size: 1.5rem;
+}
+
+.bat-apply-card p {
+    font-size: 10px;
+    text-align: center;
+}
+}

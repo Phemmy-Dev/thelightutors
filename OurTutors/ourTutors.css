@@ -95,11 +95,49 @@ header .navlinks span {
     word-spacing: 3px;
     font-size: 30px;
     width: 50%;
-    margin-left: 60px;
-    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Dancing Script', cursive; */
     color: black;
 }
 
+
+.employee-of-d-month {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+  width: 100%;
+  padding:0px 40px;
+  gap: 10px;
+}
+
+.employee-of-d-month h2 {
+  width: 100%;
+}
+
+.employee-of-d-month img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.employee-second {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.employee-second img {
+  width: 100%;
+  border-radius: 5px;
+  
+}
+
+.employee-first{
+  width: 40%;
+}
+.employee-first h2 {
+  margin-bottom: 5px;
+}
 
 .tutor-card-cont {
     display: flex;
@@ -176,6 +214,26 @@ header .navlinks span {
 
 @media only screen and (max-width: 900px) {
 
+  .employee-of-d-month {
+    flex-direction: column-reverse;
+    gap: 20px;
+    padding:0px 00px;
+
+  }
+
+  .employee-first {
+    width: 100%;
+    display: none;
+  }
+
+  .employee-second {
+    width: 130%;
+  }
+
+  .employee-first p {
+    font-size: 12px;
+  }
+
     header ul {
     position: absolute;
     top: 100px;
@@ -232,8 +290,6 @@ header .navlinks span {
     word-spacing: 3px;
     font-size: 20px;
     width: 90%;
-    margin-inline: auto;
-    font-family: 'Dancing Script', cursive;
     color: black;
 }
 

@@ -829,3 +829,35 @@ footer img {
     margin-right: 20px;
   }
 }
+
+
+.hiring_btn{
+  background-color: var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.hiring_btn:hover {
+  color: white;
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+}
+
+/* Blinking */
+
+.blinking-button {
+  background-color: var(--primary-color); /* Green background */
+  color: white; /* White text */
+  border: 1px solid var(--primary-color); 
+  cursor: pointer; /* Pointer/hand icon */
+  animation: blink 4s infinite; /* Blink animation */
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1; /* Fully visible */
+  }
+  50% {
+    opacity: 0; /* Fully invisible */
+  }
+}
