@@ -149,6 +149,7 @@ header .navlinks span {
 
 .card-cont {
     height: 400px;
+    width: 255px;
     margin-bottom: 50px;
     background-color: var(--secondary-color);
     transition: all 0.4s ease;
@@ -157,10 +158,11 @@ header .navlinks span {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6 );
+
 }
 
 .card-cont-img {
-    width: 250px;
+    width: 255px;
     height: 300px;
     /* border: 2px solid red; */
     border-top-left-radius: 10px;

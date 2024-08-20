@@ -262,10 +262,6 @@ header {
     font-weight: bold;
 }
 
-.required_documentation {
-    /* border: 2px solid red; */
-}
-
 .required_documentation h2 {
     font-size: 30px;
 }
